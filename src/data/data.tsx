@@ -9,10 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -89,12 +86,12 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-    },
+   },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
-    },
+   },
   ],
 };
 
@@ -105,12 +102,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Professional and ambitious senior developer. Continually learning and exploring new processes. Experienced AI specialist and Python full stack developer with a background in Computational Linguistics and AI and over 8 years of professional experience solving high-level challenges of AI and Python to real-world challenges across different domains.`,
   aboutItems: [
-    { label: 'Location', text: 'Ukrine, Velykyi Dalnyk', Icon: MapIcon },
-    { label: 'Age', text: '30', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Ukrinian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Football, Table tenis, Reading book', Icon: SparklesIcon },
-    { label: 'Study', text: 'Igor Sikorsky Kyiv Polytechnic Institute', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'CreditApps.com', Icon: BuildingOffice2Icon },
+    {label: 'Location', text: 'Ukrine, Velykyi Dalnyk', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Ukrinian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Football, Table tenis, Reading book', Icon: SparklesIcon},
+    {label: 'Study', text: 'Igor Sikorsky Kyiv Polytechnic Institute', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'CreditApps.com', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -124,64 +121,64 @@ export const skills: SkillGroup[] = [
       {
         name: 'English',
         level: 9,
-      },
+     },
       {
         name: 'Ukrinian',
         level: 10,
-      },
+     },
     ],
-  },
+ },
   {
     name: 'Python Specialist',
     skills: [
       {
         name: 'Django',
         level: 9,
-      },
+     },
       {
         name: 'Celery',
         level: 9,
-      },
+     },
       {
         name: 'Flask',
         level: 8,
-      },
+     },
     ],
-  },
+ },
   {
     name: 'AI engineer',
     skills: [
       {
         name: 'Machine Learning',
         level: 9,
-      },
+     },
       {
         name: 'Deep Learning',
         level: 8,
-      },
+     },
       {
         name: 'Modeling',
         level: 8,
-      },
+     },
     ],
-  },
+ },
   {
     name: 'Chatbot Specialist',
     skills: [
       {
         name: 'ChatGPT',
         level: 9,
-      },
+     },
       {
         name: 'Prompt',
         level: 9,
-      },
+     },
       {
         name: 'Voice Model',
         level: 8,
-      },
+     },
     ],
-  },
+ },
 ];
 
 /**
@@ -193,67 +190,67 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'It enables editing of essays on the website and automatically detects grammar, spelling, and logical errors in essays through AI technology.',
     url: 'https://www.adlyceum.com/',
     image: porfolioImage1,
-  },
+ },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
-  },
+ },
   {
     title: 'Booking chatbot',
     description: 'Developing automatically booking by chatbot',
     url: 'https://www.browardmotorsportsftlauderdale.com/--credit-application',
     image: porfolioImage3,
-  },
+ },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
-  },
+ },
   {
     title: 'AI Recruiter',
     description: 'I developed the AI recruiter that achieve the roll of recruiter automatically.',
     url: 'https://www.bluebixinc.com/',
     image: porfolioImage5,
-  },
+ },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage6,
-  },
+ },
   {
     title: 'Newsflow Summarize',
     description: 'Summrizing the contents of news according to its main story.',
     url: 'https://newsflow.io/user/dashboard',
     image: porfolioImage7,
-  },
+ },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage8,
-  },
+ },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage9,
-  },
+ },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage10,
-  },
+ },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage11,
-  },
+ },
 ];
 
 /**
@@ -265,7 +262,7 @@ export const education: TimelineItem[] = [
     location: 'Ukraine,Kyiv',
     title: 'Computer Science',
     content: <p>I have learned a lot in the field of <strong>computer science</strong>.Moreover, while developing several large projects during college, I developed a deep understanding of <strong>machine learning</strong>, <strong>deep learning</strong>, <strong>and chatbots</strong>.</p>,
-  },
+ },
 ];
 
 export const experience: TimelineItem[] = [
@@ -280,7 +277,7 @@ export const experience: TimelineItem[] = [
         - Giving consultations and recommendations on chatbot development. healthcare chatbot, mental health chatbot, financial assistant and etc..
       </p>
     ),
-  },
+ },
   {
     date: 'September 2018 - May 2020,',
     location: 'HyperAI(Amsterdam, Netherlands)',
@@ -292,7 +289,7 @@ export const experience: TimelineItem[] = [
         - Researched and analyzed data to identify trends and patterns, leading to the development of a predictive model that improved sales forecasting accuracy by 15%.
       </p>
     ),
-  },
+ },
   {
     date: 'September 2016 - July 2018,',
     location: "ELIFTECH(L'viv, Ukraine)",
@@ -304,7 +301,7 @@ export const experience: TimelineItem[] = [
         - Efficiently performed and conducted a descriptive and multivariate statistical analysis of data.
       </p>
     ),
-  },
+ },
 ];
 
 /**
@@ -317,17 +314,17 @@ export const testimonial: TestimonialSection = {
       name: 'Alexis Tomayo',
       text: 'Perfect!. Oleksandr is the best developer I have ever seen.He always responds quickly and delivers high quality results on time.I will continue to work with him in the future.',
       image: '',
-    },
+   },
     {
       name: 'Hasham MHS',
       text: 'I feel satisfied with his results. He is kind and honest. Moreover, I think he achieved perfect functionality in the project. I would work with him again. Thanks Oleksandr.',
       image: '',
-    },
+   },
     {
       name: 'Bob Bobby',
       text: 'Thanks Olek. He delivered the best project to me. Thank you very much. Good luck!',
       image: '',
-    },
+   },
   ],
 };
 
@@ -343,12 +340,12 @@ export const contact: ContactSection = {
       type: ContactType.Email,
       text: 'oleksandrhordenko@gmail.com',
       href: 'mailto:oleksandrhordenko@gmail.com',
-    },
+   },
     {
       type: ContactType.Github,
       text: 'Olek.H',
       href: 'https://github.com/Winner960111',
-    },
+   },
   ],
 };
 
@@ -356,6 +353,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/Winner960111' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/oleksandr-hordenko-1750822ba/' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Winner960111'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/oleksandr-hordenko-1750822ba/'},
 ];
